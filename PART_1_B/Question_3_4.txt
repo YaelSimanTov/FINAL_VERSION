@@ -1,0 +1,10 @@
+#Question 3:
+To design a solution that calculates hourly averages in real-time as data comes in a stream (instead of batch processing), we need to handle continuous data updates efficiently and update the averages for each hour as new data arrives.
+
+#Question 4:
+
+Parquet
+Advantages:
+Efficient Storage: High data compression, saving space.
+High Performance: Ideal for handling large datasets with high performance.
+Big Data Support: Commonly used in Hadoop and Spark environments.
