@@ -156,19 +156,18 @@ def calculate_hourly_avg_and_combine(input_folder, final_output_file):
 
 
 #Question 1_A:
-# validate_and_clean_data('PART_1_B/time_series.xlsx', 'PART_1_B/cleaned_time_series.xlsx')
+validate_and_clean_data('PART_1_B/time_series.xlsx', 'PART_1_B/cleaned_time_series.xlsx')
 #Question 1_B:
-# average_per_hour_per_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/average_by_hour.xlsx")
+average_per_hour_per_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/average_by_hour.xlsx")
 
 #Question 2:
-# split_file_by_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/daily_files")
-# calculate_hourly_avg_and_combine(input_folder="PART_1_B/daily_files", final_output_file='PART_1_B/final_hourly_averages.xlsx')
+split_file_by_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/daily_files")
+calculate_hourly_avg_and_combine(input_folder="PART_1_B/daily_files", final_output_file='PART_1_B/final_hourly_averages.xlsx')
 
 #Question 4:
 # validate_and_clean_data('PART_1_B/time_series (4).parquet', 'PART_1_B/cleaned_time_series.xlsx')
 # average_per_hour_per_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/average_by_hour.xlsx")
 
-file_path = 'PART_1_B/time_series (4).parquet'
-df = pd.read_parquet(file_path)
 
-print(df.head())
+
+
