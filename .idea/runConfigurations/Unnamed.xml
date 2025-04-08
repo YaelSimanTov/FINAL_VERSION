@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" folderName="New Folder" nameIsGenerated="true" port="9229">
+    <mapping url="http://localhost:9229" local-file="$PROJECT_DIR$/main.py" />
+    <method v="2" />
+  </configuration>
+</component>

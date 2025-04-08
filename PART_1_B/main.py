@@ -156,7 +156,7 @@ def calculate_hourly_avg_and_combine(input_folder, final_output_file):
 
 
 #Question 1_A:
-validate_and_clean_data('PART_1_B/time_series.xlsx', 'PART_1_B/cleaned_time_series.xlsx')
+# validate_and_clean_data('PART_1_B/time_series.xlsx', 'PART_1_B/cleaned_time_series.xlsx')
 #Question 1_B:
 # average_per_hour_per_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/average_by_hour.xlsx")
 
@@ -168,4 +168,7 @@ validate_and_clean_data('PART_1_B/time_series.xlsx', 'PART_1_B/cleaned_time_seri
 # validate_and_clean_data('PART_1_B/time_series (4).parquet', 'PART_1_B/cleaned_time_series.xlsx')
 # average_per_hour_per_date("PART_1_B/cleaned_time_series.xlsx", "PART_1_B/average_by_hour.xlsx")
 
+file_path = 'PART_1_B/time_series (4).parquet'
+df = pd.read_parquet(file_path)
 
+print(df.head())
